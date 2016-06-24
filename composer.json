@@ -23,14 +23,14 @@
         "php": "^5.6|^7.0",
 
         "doctrine/doctrine-cache-bundle": "~1.0",
-        "sylius/rbac": "^0.19",
-        "sylius/resource-bundle": "^0.19",
-        "symfony/framework-bundle": "^2.8"
+        "sylius/rbac": "dev-symfony_3_compatibility",
+        "sylius/resource-bundle": "dev-symfony_3_compatibility",
+        "symfony/framework-bundle": "^3.0"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.4",
         "doctrine/orm": "^2.4.8,<2.5",
-        "symfony/form": "^2.8",
+        "symfony/form": "^3.0",
         "twig/twig": "^1.0"
     },
     "config": {
